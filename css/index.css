@@ -6,11 +6,15 @@ body {
 header {
 	display: flex;
 	margin-top: 1.5%;
+	width: 100vh;
 }
+
 
 .menu-button {
 	margin: 2% 94px 0 86px;
 	cursor: pointer;
+	width: 10%;
+	height: 10%;
 }
 
 .header-block {
