@@ -5,6 +5,10 @@ body {
 	height: 100%; */
 }
 
+
+/* header css: */
+
+
 .menu-button {
 	position: absolute;
 	margin: 2% 0 0 4%;
@@ -45,6 +49,10 @@ body {
 	letter-spacing: 5px;
 }
 
+
+/* main css: */
+
+
 main {
 	display: flex;
 	margin-top: 4%;
@@ -55,11 +63,18 @@ main {
 	display: flex;
 	justify-content: center;
 	width: 80%;
-	height: fit-content;
+	height: 80%;
 	flex-shrink: 0;
 	border-radius: 5em 0em;
 	border-right: 8px solid #E63946;
 	background: #457B9D;
+	color: var(--icon-color, #F1FAEE);
+	font-family: 'Noto Sans Tangsa', sans-serif;
+	font-size: 3em;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 61px;
+	letter-spacing: 3px;
 	transition: 1s;
 	hyphens: auto;
 	-moz-hyphens: auto;
@@ -78,7 +93,7 @@ main {
 	-ms-hyphens: auto;
 }
 
-.main-text {
+/* .main-text {
 	align-items: center;
 	width: 90%;
 	height: 90%;
@@ -99,12 +114,12 @@ main {
 
 .main-text_active {
 	width: fit-content;
-	margin-left: 6%;
-	hyphens: auto;
+	/* margin-left: 6%; */
+	/* hyphens: auto;
 	-moz-hyphens: auto;
 	-webkit-hyphens: auto;
 	-ms-hyphens: auto;
-}
+} */
 
 .contact-header {
 	display: flex;
@@ -123,7 +138,7 @@ main {
 	justify-content: center;
 	border-radius: 50px;
 	background: #A8DADC;
-	width: 100%;
+	width: 20%;
 	height: 250px;
 	cursor: pointer;
 }
@@ -137,6 +152,19 @@ main {
 	letter-spacing: 0.2em;
 	text-decoration-line: underline;
 }
+
+
+.contact-option-photo {
+	/* position: fixed; */
+	width: 4em;
+	height: 4em;
+	flex-shrink: 0;
+	margin: 10.8em 8.5em 6.2em 8.5em;
+}
+
+
+/* menu css: */
+
 
 .menu-block {
 	display: grid;
@@ -163,10 +191,6 @@ main {
 .menu_active {
 	transform: translateX(0%);
 }
-
-/* .close-button:hover {
-	text-shadow: 0 0 10px #FF4500;
-} */
 
 .close-button {
 	position: fixed;
