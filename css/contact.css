@@ -1,24 +1,29 @@
 body {
 	background-color: #F1FAEE;
-	font-size: 15px;
-}
-
-header {
-	display: flex;
-	margin-top: 1.5%;
+	font-size: 10px;
+	/* width: 100%;
+	height: 100%; */
 }
 
 .menu-button {
-	margin: 2% 94px 0 86px;
+	position: absolute;
+	margin: 2% 0 0 4%;
 	cursor: pointer;
+}
+
+.title-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
 .header-block {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 150vh;
-	height: 150px;
+	width: 50%;
+	height: 10%;
+	margin-top: 1%;
 	border-radius: 50px;
 	background: #A8DADC;
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -27,13 +32,13 @@ header {
 
 .header-block_active {
 	width: 50%;
-	transform: translateX(60%);
+	transform: translateX(35%);
 }
 
 .header-text {
 	color: #1D3557;
 	font-family: 'Noto Sans Tangsa', sans-serif;
-	font-size: 50px;
+	font-size: 4.5em;
 	font-style: normal;
 	font-weight: 600;
 	line-height: 122%;
@@ -42,25 +47,35 @@ header {
 
 main {
 	display: flex;
+	margin-top: 4%;
 	justify-content: center;
 }
 
 .text-block {
 	display: flex;
 	justify-content: center;
-	width: 90%;
-	height: 70vh;
-	margin: 3% 0 0 0;
-	border-radius: 50px 0px;
+	width: 80%;
+	height: fit-content;
+	flex-shrink: 0;
+	border-radius: 5em 0em;
 	border-right: 8px solid #E63946;
 	background: #457B9D;
 	transition: 1s;
+	hyphens: auto;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
 }
 
 .text-block_active {
+	width: 60%;
 	transform: translateX(30%);
 	border-right: none;
-	width: 60%;
+	height: auto;
+	hyphens: auto;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
 }
 
 .main-text {
@@ -70,7 +85,7 @@ main {
 	flex-shrink: 0;
 	color: var(--icon-color, #F1FAEE);
 	font-family: 'Noto Sans Tangsa', sans-serif;
-	font-size: 30px;
+	font-size: 3em;
 	font-style: normal;
 	font-weight: 400;
 	line-height: 61px;
@@ -89,7 +104,6 @@ main {
 	-moz-hyphens: auto;
 	-webkit-hyphens: auto;
 	-ms-hyphens: auto;
-
 }
 
 .contact-header {
@@ -109,9 +123,19 @@ main {
 	justify-content: center;
 	border-radius: 50px;
 	background: #A8DADC;
-	width: 250px;
+	width: 100%;
 	height: 250px;
 	cursor: pointer;
+}
+
+.contact-option-header {
+	color: #1D3557;
+	font-family: 'Noto San Tagsa', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 6.1em; /* 203.333% */
+	letter-spacing: 0.2em;
+	text-decoration-line: underline;
 }
 
 .menu-block {
@@ -129,7 +153,7 @@ main {
 	top: 0;
 	width: 35%;
 	height: 100vh;
-	border-radius: 0px 50px 50px 0px;
+	border-radius: 0 5em 5em 0;
 	border-right: 8px solid #E63946;
 	background: #457B9D;
 	transition: 1s;
@@ -140,6 +164,10 @@ main {
 	transform: translateX(0%);
 }
 
+/* .close-button:hover {
+	text-shadow: 0 0 10px #FF4500;
+} */
+
 .close-button {
 	position: fixed;
 	margin: 45px 0 0 66px;
@@ -147,29 +175,27 @@ main {
 }
 
 .menu-header-wrapper {
-	width: 675px;
+	width: 1000%;
 	text-align: center;
 }
 
 .menu-header {
-	flex-shrink: 0;
 	color: var(--icon-color, #F1FAEE);
 	font-family: 'Noto Sans Tangsa', sans-serif;
-	font-size: 50px;
+	font-size: 5em;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 61px; /* 122% */
-	letter-spacing: 5px;
-	cursor: pointer;
+	line-height: 122%; /* 122% */
+	letter-spacing: 0.3em;
 }
 
 .menu-option {
 	display: flex;
 	justify-content: center;
-	border-radius: 50px;
+	border-radius: 5em;
 	background: #A8DADC;
-	width: 250px;
-	height: 250px;
+	width: 100%;
+	height: 100%;
 	cursor: pointer;
 }
 
@@ -196,18 +222,18 @@ main {
 .option-header {
 	color: #1D3557;
 	font-family: 'Noto San Tagsa', sans-serif;
-	font-size: 30px;
+	font-size: 3em;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 61px; /* 203.333% */
-	letter-spacing: 3px;
+	line-height: 6.1em; /* 203.333% */
+	letter-spacing: 0.2em;
 	text-decoration-line: underline;
 }
 
 .option-photo {
 	position: fixed;
-	width: 100px;
-	height: 100px;
+	width: 8em;
+	height: 8em;
 	flex-shrink: 0;
-	margin: 90px 85px 62px 85px;
+	margin: 10.8em 8.5em 6.2em 8.5em;
 }

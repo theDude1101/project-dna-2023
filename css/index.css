@@ -1,8 +1,8 @@
 body {
 	background-color: #F1FAEE;
 	font-size: 10px;
-	width: 100%;
-	height: 100%;
+	/* width: 100%;
+	height: 100%; */
 }
 
 .menu-button {
@@ -57,6 +57,11 @@ main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	transition: 1s;
+}
+
+.photo-wrapper_active {
+	transform: translateX(-15%);
 }
 
 .photo {
@@ -69,11 +74,11 @@ main {
 
 .text-block {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: center;
 	width: 35%;
 	height: 50em;
 	flex-shrink: 0;
-	border-radius: 50px 0px;
+	border-radius: 5em 0em;
 	border-right: 8px solid #E63946;
 	background: #457B9D;
 	transition: 1s;
@@ -84,9 +89,8 @@ main {
 }
 
 .text-block_active {
-	transform: translateX(-17%);
+	transform: translateX(-15%);
 	border-right: none;
-	width: 60%;
 	height: auto;
 	hyphens: auto;
 	-moz-hyphens: auto;
@@ -95,16 +99,14 @@ main {
 }
 
 .main-text {
-	width: 909px;
-	height: 515px;
-	flex-shrink: 0;
+	width: 80%;
 	color: var(--icon-color, #F1FAEE);
 	font-family: 'Noto Sans Tangsa', sans-serif;
-	font-size: 30px;
+	font-size: 3em;
 	font-style: normal;
 	font-weight: 400;
 	line-height: 203%; /* 203.333% */
-	letter-spacing: 3px;
+	letter-spacing: 0.33em;
 }
 
 .menu-block {
@@ -122,7 +124,7 @@ main {
 	top: 0;
 	width: 35%;
 	height: 100vh;
-	border-radius: 0px 50px 50px 0px;
+	border-radius: 0 5em 5em 0;
 	border-right: 8px solid #E63946;
 	background: #457B9D;
 	transition: 1s;
@@ -133,9 +135,9 @@ main {
 	transform: translateX(0%);
 }
 
-.close-button:hover {
+/* .close-button:hover {
 	text-shadow: 0 0 10px #FF4500;
-}
+} */
 
 .close-button {
 	position: fixed;
@@ -151,17 +153,17 @@ main {
 .menu-header {
 	color: var(--icon-color, #F1FAEE);
 	font-family: 'Noto Sans Tangsa', sans-serif;
-	font-size: 50px;
+	font-size: 5em;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 61px; /* 122% */
-	letter-spacing: 5px;
+	line-height: 122%; /* 122% */
+	letter-spacing: 0.3em;
 }
 
 .menu-option {
 	display: flex;
 	justify-content: center;
-	border-radius: 50px;
+	border-radius: 5em;
 	background: #A8DADC;
 	width: 100%;
 	height: 100%;
@@ -187,18 +189,18 @@ main {
 .option-header {
 	color: #1D3557;
 	font-family: 'Noto San Tagsa', sans-serif;
-	font-size: 30px;
+	font-size: 3em;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 61px; /* 203.333% */
-	letter-spacing: 3px;
+	line-height: 6.1em; /* 203.333% */
+	letter-spacing: 0.2em;
 	text-decoration-line: underline;
 }
 
 .option-photo {
 	position: fixed;
-	width: 80px;
-	height: 80px;
+	width: 8em;
+	height: 8em;
 	flex-shrink: 0;
-	margin: 108px 85px 62px 85px;
+	margin: 10.8em 8.5em 6.2em 8.5em;
 }
