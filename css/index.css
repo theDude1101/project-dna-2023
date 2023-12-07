@@ -61,7 +61,7 @@ main {
 }
 
 .photo-wrapper_active {
-	transform: translateX(-15%);
+	transform: translateX(-100%);
 }
 
 .photo {
