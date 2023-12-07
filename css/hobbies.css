@@ -48,13 +48,14 @@ body {
 main {
 	display: flex;
 	margin-top: 4%;
+	justify-content: center;
 }
 
 .text-block {
 	display: flex;
 	justify-content: center;
-	width: 35%;
-	height: 50em;
+	width: 80%;
+	height: fit-content;
 	flex-shrink: 0;
 	border-radius: 5em 0em;
 	border-right: 8px solid #E63946;
@@ -67,7 +68,8 @@ main {
 }
 
 .text-block_active {
-	transform: translateX(-15%);
+	width: 60%;
+	transform: translateX(30%);
 	border-right: none;
 	height: auto;
 	hyphens: auto;
@@ -77,6 +79,9 @@ main {
 }
 
 .main-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	width: 80%;
 	color: var(--icon-color, #F1FAEE);
 	font-family: 'Noto Sans Tangsa', sans-serif;
@@ -86,6 +91,40 @@ main {
 	line-height: 203%; /* 203.333% */
 	letter-spacing: 0.33em;
 }
+
+.hobbies-header {
+	align-self: center;
+	color: #F1FAEE;
+	font-family: 'Noto Sans Tangsa', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	letter-spacing: 0.5em;
+}
+
+.hobbies-imgs {
+	align-self: center;
+	width: 50%;
+	height: 100%;
+	border-radius: 2em;
+}
+
+.physics {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	width: 10%;
+}
+
+.photo-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+
+/* menu css: */
+
 
 .menu-block {
 	display: grid;

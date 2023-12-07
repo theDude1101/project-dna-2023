@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<meta charset="UTF-8">
@@ -24,13 +24,28 @@
 	</header>
 
 	<main>
-		<div class="text-block">
-			<p class="main-text">
-				Салтыков Фёдор Антонович
-			</p>
+		<div class=" text-block">
+			<div class="main-text">
+				<p class="hobbies-header">кулинария</p>
+				<div class="photo-wrapper">
+					<img class="hobbies-imgs" src="img/сосиски в тесте.jpg" alt="сосиски в тесте">
+					<img class="hobbies-imgs" src="img/булочки.jpg" alt="булочки с корицей">
+				</div>
+				<p class="hobbies-header">футбол</p>
+				<div class="photo-wrapper">
+					<img class="hobbies-imgs" src="img/футбол 1.jpg" alt="команда футбол">
+					<img class="hobbies-imgs" src="" alt="булочки с корицей">
+				</div>
+				<p class="hobbies-header">музыка</p>
+				<p class="hobbies-header">физика</p>
+				<div class="photo-wrapper">
+					<img class="hobbies-imgs physics" src="img/бутылка физика.jpg" alt="бутылка физика">
+					<img class="hobbies-imgs" src="" alt="булочки с корицей">
+				</div>
+			</div>
 		</div>
-
 	</main>
+
 	<div class="menu-block">
 		<svg class="close-button" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
 			<path
@@ -58,7 +73,16 @@
 					stroke="#1D3557" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
 			</svg>
 		</div>
-		<div onclick="window.location.href='index.html';" id="option3" class="menu-option">
+		<div onclick="window.location.href='hobbies.html';" id="option3" class="menu-option">
+			<span class="option-header">хобби</span>
+			<svg class="option-photo" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80"
+				fill="none">
+				<path
+					d="M13.3334 70V52.2903M13.3334 52.2903C32.7273 37.1257 47.2728 67.4542 66.6667 52.2896V14.3782C47.2728 29.5428 32.7273 -0.78701 13.3334 14.3776V52.2903Z"
+					stroke="#1D3557" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+			</svg>
+		</div>
+		<div onclick="window.location.href='index.html';" id="option4" class="menu-option">
 			<span id="option-main" class="option-header">главная</span>
 			<svg class="option-photo" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80"
 				fill="none">
@@ -67,18 +91,10 @@
 					stroke="#E63946" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
 			</svg>
 		</div>
-		<div onclick="window.location.href='biography.html';" id="option4" class="menu-option">
-			<span class="option-header">биография</span>
-			<svg class="option-photo" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80"
-				fill="none">
-				<path d="M50 20V70M50 20L70 10V60L50 70M50 20L30 10M50 70L30 60M30 60L10 70V20L30 10M30 60V10" stroke="#1D3557"
-					stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-			</svg>
-		</div>
 	</div>
 
 	<script src="js/jquery-3.7.1.slim.min.js"></script>
-	<script src="js/script.js"></script>
+	<script src="js/script-bio.js"></script>
 </body>
 
 </html>

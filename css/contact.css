@@ -44,7 +44,7 @@ body {
 	font-style: normal;
 	font-weight: 600;
 	line-height: 122%;
-	letter-spacing: 5px;
+	letter-spacing: 0.5em;
 }
 
 
@@ -93,34 +93,6 @@ main {
 	-webkit-hyphens: auto;
 	-ms-hyphens: auto;
 }
-
-/* .main-text {
-	align-items: center;
-	width: 90%;
-	height: 90%;
-	flex-shrink: 0;
-	color: var(--icon-color, #F1FAEE);
-	font-family: 'Noto Sans Tangsa', sans-serif;
-	font-size: 3em;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 61px;
-	letter-spacing: 3px;
-	transition: 1s;
-	hyphens: auto;
-	-moz-hyphens: auto;
-	-webkit-hyphens: auto;
-	-ms-hyphens: auto;
-}
-
-.main-text_active {
-	width: fit-content;
-	/* margin-left: 6%; */
-	/* hyphens: auto;
-	-moz-hyphens: auto;
-	-webkit-hyphens: auto;
-	-ms-hyphens: auto;
-} */
 
 .contact-header {
 	display: flex;

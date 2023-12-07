@@ -113,10 +113,6 @@ main {
 	transform: translateX(0%);
 }
 
-/* .close-button:hover {
-	text-shadow: 0 0 10px #FF4500;
-} */
-
 .close-button {
 	position: fixed;
 	margin: 45px 0 0 66px;
@@ -140,7 +136,9 @@ main {
 
 .menu-option {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
 	border-radius: 5em;
 	background: #A8DADC;
 	width: 100%;
@@ -174,15 +172,11 @@ main {
 	font-size: 3em;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 6.1em; /* 203.333% */
 	letter-spacing: 0.2em;
 	text-decoration-line: underline;
 }
 
 .option-photo {
-	position: fixed;
 	width: 8em;
 	height: 8em;
-	flex-shrink: 0;
-	margin: 10.8em 8.5em 6.2em 8.5em;
 }
