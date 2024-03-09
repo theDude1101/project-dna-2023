@@ -3,13 +3,9 @@ body {
 	font-size: 10px;
 }
 
-
-/* header css: */
-
-
 .menu-button {
 	position: absolute;
-	margin: 2% 0 0 4%;
+	margin: 2vw 0 0 4vw;
 	cursor: pointer;
 }
 
@@ -26,9 +22,9 @@ body {
 	width: 50%;
 	height: 10%;
 	margin-top: 1%;
-	border-radius: 50px;
+	border-radius: 2.6vw;
 	background: #A8DADC;
-	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	box-shadow: 0 0.21vw 0.21vw 0 rgba(0, 0, 0, 0.25);
 	transition: 1s;
 }
 
@@ -40,20 +36,16 @@ body {
 .header-text {
 	color: #1D3557;
 	font-family: 'Noto Sans Tangsa', sans-serif;
-	font-size: 4.5em;
+	font-size: 5vh;
 	font-style: normal;
 	font-weight: 600;
 	line-height: 122%;
-	letter-spacing: 0.5em;
+	letter-spacing: 0.25vw;
 }
-
-
-/* main css: */
-
 
 main {
 	display: flex;
-	margin-top: 4%;
+	margin-top: 8vh;
 	justify-content: center;
 }
 
@@ -64,7 +56,6 @@ main {
 	flex-direction: column;
 	width: 80%;
 	height: 50vh;
-	/* height: 80%; */
 	border-radius: 2em 0em;
 	border-right: 0.4em solid #E63946;
 	background: #457B9D;
@@ -73,7 +64,6 @@ main {
 	font-size: 3em;
 	font-style: normal;
 	font-weight: 400;
-	/* line-height: 61px; */
 	letter-spacing: 3px;
 	transition: 1s;
 	hyphens: auto;
@@ -157,8 +147,8 @@ main {
 	top: 0;
 	width: 35%;
 	height: 100vh;
-	border-radius: 0 5em 5em 0;
-	border-right: 8px solid #E63946;
+	border-radius: 0 5vh 5vh 0;
+	border-right: 0.8vh solid #E63946;
 	background: #457B9D;
 	transition: 1s;
 	transform: translateX(-100%);
@@ -170,7 +160,7 @@ main {
 
 .close-button {
 	position: fixed;
-	margin: 45px 0 0 66px;
+	margin: 2.5vw 0 0 3vw;
 	cursor: pointer;
 }
 
