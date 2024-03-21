@@ -88,19 +88,39 @@ main {
 	letter-spacing: 0.5vw;
 }
 
-.hobbies-header {
+.collapsible {
 	align-self: center;
-	color: #F1FAEE;
+	margin-top: 5vh;
+	margin-bottom: 3vh;
+	background-color: #F1FAEE;
+	color: #1D3557;
+	border-radius: 1.5vh;
 	font-family: 'Noto Sans Tangsa', sans-serif;
-	font-style: normal;
+	font-size: 3vh;
 	font-weight: 600;
 	letter-spacing: 0.5vh;
+
+}
+
+.active, .collapsible:hover {
+	background-color: #A8DADC;
+	cursor: pointer;
+}
+
+.photo-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 100%;
+	max-height: 0;
+  	overflow: hidden;
+  	transition: max-height 0.2s ease-out;
 }
 
 .hobbies-imgs {
 	align-self: center;
-	width: 50%;
-	height: 100%;
+	width: 30vw;
+	height: 40vh;
 	border-radius: 2vh;
 }
 
@@ -111,12 +131,7 @@ main {
 	width: 10%;
 }
 
-.photo-wrapper {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	width: 100%;
-}
+
 
 
 /* menu css: */
