@@ -112,30 +112,22 @@ main {
 	flex-direction: row;
 	justify-content: space-evenly;
 	width: 100%;
-	max-height: 0;
-  	overflow: hidden;
-  	transition: max-height 0.2s ease-out;
+	display: none;
+	overflow: hidden
 }
 
 .hobbies-imgs {
 	align-self: center;
-	width: 30vw;
 	height: 40vh;
 	border-radius: 2vh;
 }
 
-.physics {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	width: 10%;
+.hobbies-imgs.two-photos {
+	width: 25vw;
 }
 
 
-
-
 /* menu css: */
-
 
 .menu-block {
 	display: grid;
