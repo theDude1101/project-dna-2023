@@ -1,3 +1,4 @@
+// menu mechanism:
 $('.menu-button').on('click', function(e) {
   e.preventDefault();
   $('.menu-block').toggleClass('menu_active');
