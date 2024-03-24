@@ -53,7 +53,7 @@ main {
 	justify-content: center;
 	width: 80%;
 	height: auto;
-	border-radius: 5vh 0;
+	border-radius: 3vh 0;
 	border-right: 1vh solid #E63946;
 	background: #457B9D;
 	transition: 1s;
@@ -89,6 +89,7 @@ main {
 	color: #A8DADC;
 }
 
+/* menu css: */
 .menu-block {
 	display: grid;
 	grid-template-columns: 10% 33% 15% 33%;
