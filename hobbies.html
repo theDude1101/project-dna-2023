@@ -58,41 +58,33 @@
 		<div class="menu-header-wrapper">
 			<p class="menu-header">меню</p>
 		</div>
-		<div onclick="window.location.href = 'portfolio.html';" id="option1" class="menu-option">
-			<span class="option-header">портфолио</span>
-			<svg class="option-photo" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80"
-				fill="none">
-				<path
-					d="M43.3333 10.0029C43.015 10 42.6576 10 42.249 10H27.3339C23.6003 10 21.732 10 20.3059 10.7266C19.0515 11.3658 18.0324 12.3849 17.3932 13.6393C16.6666 15.0654 16.6666 16.9336 16.6666 20.6673V59.334C16.6666 63.0677 16.6666 64.9335 17.3932 66.3596C18.0324 67.614 19.0515 68.6349 20.3059 69.2741C21.7306 70 23.5966 70 27.3231 70L52.6769 70C56.4033 70 58.2666 70 59.6913 69.2741C60.9457 68.6349 61.9682 67.614 62.6074 66.3596C63.3333 64.9349 63.3333 63.0716 63.3333 59.3453V31.0856C63.3333 30.6765 63.3332 30.3187 63.3302 30M43.3333 10.0029C44.2854 10.0116 44.8878 10.0462 45.4628 10.1842C46.143 10.3475 46.7928 10.6175 47.3893 10.9831C48.0618 11.3952 48.6394 11.9727 49.7916 13.125L60.2099 23.5433C61.3629 24.6963 61.9362 25.2712 62.3485 25.944C62.714 26.5405 62.9844 27.1909 63.1477 27.8711C63.2857 28.4459 63.3211 29.0484 63.3302 30M43.3333 10.0029V19.3333C43.3333 23.067 43.3333 24.9326 44.0599 26.3586C44.6991 27.6131 45.7182 28.6349 46.9726 29.2741C48.3973 30 50.2633 30 53.9897 30H63.3302M63.3302 30H63.3339"
-					stroke="#1D3557" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-			</svg>
-		</div>
-		<div onclick="window.location.href='contact.html';" id="option2" class="menu-option">
-			<span class="option-header">контакты</span>
-			<svg class="option-photo" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80"
-				fill="none">
-				<path
-					d="M53.3333 26.6667H66.6667C68.5076 26.6667 70 28.1591 70 30V66.6667L58.89 57.4365C58.2915 56.9393 57.5359 56.6667 56.7578 56.6667H30C28.159 56.6667 26.6667 55.1743 26.6667 53.3333V43.3333M53.3333 26.6667V16.6667C53.3333 14.8257 51.8409 13.3333 50 13.3333H13.3333C11.4924 13.3333 10 14.8257 10 16.6667V53.3343L21.11 44.1027C21.7085 43.6055 22.4641 43.3333 23.2422 43.3333H26.6667M53.3333 26.6667V40C53.3333 41.8409 51.8409 43.3333 50 43.3333H26.6667"
-					stroke="#1D3557" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-			</svg>
-		</div>
-		<div onclick="window.location.href='index.html';" id="option3" class="menu-option">
-			<span id="option-main" class="option-header">главная</span>
-			<svg class="option-photo" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80"
-				fill="none">
-				<path
-					d="M40 36.6667V53.3333M40 70C23.4315 70 10 56.5685 10 40C10 23.4315 23.4315 10 40 10C56.5685 10 70 23.4315 70 40C70 56.5685 56.5685 70 40 70ZM40.166 26.6667V27L39.834 27.0007V26.6667H40.166Z"
-					stroke="#E63946" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-			</svg>
-		</div>
-		<div onclick="window.location.href='biography.html';" id="option4" class="menu-option">
-			<span class="option-header">биография</span>
-			<svg class="option-photo" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80"
-				fill="none">
-				<path
-					d="M13.3334 70V52.2903M13.3334 52.2903C32.7273 37.1257 47.2728 67.4542 66.6667 52.2896V14.3782C47.2728 29.5428 32.7273 -0.78701 13.3334 14.3776V52.2903Z"
-					stroke="#1D3557" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-			</svg>
+		<div id="menu-options-wrapper">
+			<div onclick="window.location.href = 'index.html';" class="menu-option">
+				<span class="option-header">главная</span>
+				<!-- <svg class="option-photo" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80"
+					fill="none">
+					<path
+						d="M43.3333 10.0029C43.015 10 42.6576 10 42.249 10H27.3339C23.6003 10 21.732 10 20.3059 10.7266C19.0515 11.3658 18.0324 12.3849 17.3932 13.6393C16.6666 15.0654 16.6666 16.9336 16.6666 20.6673V59.334C16.6666 63.0677 16.6666 64.9335 17.3932 66.3596C18.0324 67.614 19.0515 68.6349 20.3059 69.2741C21.7306 70 23.5966 70 27.3231 70L52.6769 70C56.4033 70 58.2666 70 59.6913 69.2741C60.9457 68.6349 61.9682 67.614 62.6074 66.3596C63.3333 64.9349 63.3333 63.0716 63.3333 59.3453V31.0856C63.3333 30.6765 63.3332 30.3187 63.3302 30M43.3333 10.0029C44.2854 10.0116 44.8878 10.0462 45.4628 10.1842C46.143 10.3475 46.7928 10.6175 47.3893 10.9831C48.0618 11.3952 48.6394 11.9727 49.7916 13.125L60.2099 23.5433C61.3629 24.6963 61.9362 25.2712 62.3485 25.944C62.714 26.5405 62.9844 27.1909 63.1477 27.8711C63.2857 28.4459 63.3211 29.0484 63.3302 30M43.3333 10.0029V19.3333C43.3333 23.067 43.3333 24.9326 44.0599 26.3586C44.6991 27.6131 45.7182 28.6349 46.9726 29.2741C48.3973 30 50.2633 30 53.9897 30H63.3302M63.3302 30H63.3339"
+						stroke="#1D3557" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+				</svg> -->
+			</div>
+			<div onclick="window.location.href='portfolio.html';" class="menu-option">
+				<span class="option-header">портфолио</span>
+				<!-- <svg class="option-photo" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80"
+					fill="none">
+					<path
+						d="M13.3334 70V52.2903M13.3334 52.2903C32.7273 37.1257 47.2728 67.4542 66.6667 52.2896V14.3782C47.2728 29.5428 32.7273 -0.78701 13.3334 14.3776V52.2903Z"
+						stroke="#1D3557" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+				</svg> -->
+			</div>
+			<div onclick="window.location.href='biography.html';" class="menu-option">
+				<span class="option-header">биография</span>
+				<!-- <svg class="option-photo" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80"
+					fill="none">
+					<path d="M50 20V70M50 20L70 10V60L50 70M50 20L30 10M50 70L30 60M30 60L10 70V20L30 10M30 60V10" stroke="#1D3557"
+						stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+				</svg> -->
+			</div>
 		</div>
 	</div>
 
