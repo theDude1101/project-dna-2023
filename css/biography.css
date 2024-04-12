@@ -6,6 +6,8 @@ body {
 	position: absolute;
 	margin: 2vw 0 0 4vw;
 	cursor: pointer;
+	width: 11vh;
+	height: 11vh;
 }
 
 .menu-button:hover {
@@ -154,6 +156,11 @@ main {
 	width: 80%;
 	height: 15%;
 	cursor: pointer;
+}
+
+.menu-option:hover {
+	background-color: #F1FAEE;
+	transition: 1s;
 }
 
 .option-header {

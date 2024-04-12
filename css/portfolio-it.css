@@ -6,6 +6,8 @@ body {
 	position: absolute;
 	margin: 2vw 0 0 4vw;
 	cursor: pointer;
+	width: 11vh;
+	height: 11vh;
 }
 
 .menu-button:hover {
@@ -49,6 +51,7 @@ body {
 	letter-spacing: 0.25vw;
 }
 
+/* body: */
 main {
 	display: flex;
 	margin-top: 8vh;
@@ -94,6 +97,11 @@ main {
 
 .portfolio-link {
 	color: #A8DADC;
+}
+
+.portfolio-link:hover {
+	color: #F1FAEE;
+	transition: 0.7s;
 }
 
 /* menu: */
