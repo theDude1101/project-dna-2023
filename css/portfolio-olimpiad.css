@@ -2,15 +2,13 @@ body {
 	background-color: #F1FAEE;
 }
 
+/* header: */
 .menu-button {
 	position: absolute;
 	margin: 2vw 0 0 4vw;
 	cursor: pointer;
-}
-
-.menu-button:hover {
-	box-shadow: inset 0 0 0 0.3vh #457B9D;
-	border-radius: 5.5vh;
+	width: 11vh;
+	height: 11vh;
 }
 
 .title-wrapper {
@@ -47,6 +45,7 @@ body {
 	letter-spacing: 0.25vw;
 }
 
+/* body: */
 main {
 	display: flex;
 	margin-top: 8vh;
@@ -92,6 +91,11 @@ main {
 
 .portfolio-link {
 	color: #A8DADC;
+}
+
+.portfolio-link:hover {
+	color: #F1FAEE;
+	transition: 1s;
 }
 
 /* menu: */

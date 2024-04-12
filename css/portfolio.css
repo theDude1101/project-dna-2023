@@ -12,6 +12,8 @@ body {
 .menu-button:hover {
 	box-shadow: inset 0 0 0 0.3vh #457B9D;
 	border-radius: 5.5vh;
+	transition-property: box-shadow;
+	transition-duration: 0.7s;
 }
 
 .title-wrapper {
