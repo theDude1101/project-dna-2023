@@ -8,6 +8,11 @@ body {
 	cursor: pointer;
 }
 
+.menu-button:hover {
+	box-shadow: inset 0 0 0 0.3vh #457B9D;
+	border-radius: 5.5vh;
+}
+
 .title-wrapper {
 	width: 100%;
 	display: flex;
@@ -161,8 +166,3 @@ main {
 	font-weight: 400;
 	text-decoration-line: underline;
 }
-
-/* .option-photo {
-	width: 8vh;
-	height: 8vh;
-} */

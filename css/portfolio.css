@@ -2,12 +2,16 @@ body {
 	background-color: #F1FAEE;
 }
 
-/* header css: */
-
+/* header: */
 .menu-button {
 	position: absolute;
 	margin: 2vw 0 0 4vw;
 	cursor: pointer;
+}
+
+.menu-button:hover {
+	box-shadow: inset 0 0 0 0.3vh #457B9D;
+	border-radius: 5.5vh;
 }
 
 .title-wrapper {
@@ -45,8 +49,7 @@ body {
 }
 
 
-/* main css: */
-
+/* main: */
 main {
 	display: flex;
 	margin-top: 8vh;
@@ -205,8 +208,3 @@ main {
 	font-weight: 400;
 	text-decoration-line: underline;
 }
-
-/* .option-photo {
-	width: 8vh;
-	height: 8vh;
-} */
